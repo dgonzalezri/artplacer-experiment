@@ -1,0 +1,22 @@
+# pubspec.yaml
+name: wall_art_poc
+description: Wall Art Placement Proof of Concept
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.0.0+1       # For image file selection
+  image: ^4.1.7               # For image processing
+  path_provider: ^2.1.2       # For file paths
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
